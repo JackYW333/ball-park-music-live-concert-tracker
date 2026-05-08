@@ -1,0 +1,450 @@
+[
+  {
+    "id": "43db13eb",
+    "date": "2007-10-20",
+    "venue": "Art Museum",
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 31
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "33d6c04d",
+    "date": "2007-07-08",
+    "venue": "Punchestown Racecourse",
+    "city": "Naas",
+    "country": "Ireland",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 34
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "4bd5ef2a",
+    "date": "2007-07-07",
+    "venue": "Wembley Stadium",
+    "city": "London",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 35
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "5bdb1334",
+    "date": "2007-07-06",
+    "venue": "Balado",
+    "city": "Kinross",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 36
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "bd3397e",
+    "date": "2007-07-03",
+    "venue": "Parque do Tejo",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 39
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "3bde28c8",
+    "date": "2007-07-01",
+    "venue": "Lotnisko Gdynia-Kosakowo",
+    "city": "Gdynia",
+    "country": "Poland",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 41
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "53db1331",
+    "date": "2007-06-30",
+    "venue": "Sittertobel",
+    "city": "St. Gallen",
+    "country": "Switzerland",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 42
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "3d6dd97",
+    "date": "2007-06-29",
+    "venue": "Festivalpark",
+    "city": "Werchter",
+    "country": "Belgium",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 43
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "5bdb133c",
+    "date": "2007-06-28",
+    "venue": "Zénith de Rouen",
+    "city": "Le Grand-Quevilly",
+    "country": "France",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 42
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "53db133d",
+    "date": "2007-06-26",
+    "venue": "Den Atelier",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 40
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "4bd4cf0e",
+    "date": "2007-06-24",
+    "venue": "take-off GewerbePark",
+    "city": "Neuhausen ob Eck",
+    "country": "Germany",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 38
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "4bdec3d2",
+    "date": "2007-06-23",
+    "venue": "Eichenring",
+    "city": "Scheeßel",
+    "country": "Germany",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 37
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "4bdb133e",
+    "date": "2007-06-22",
+    "venue": "Worthy Farm",
+    "city": "Pilton",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "A Weekend in the City",
+        "nearestShowDays": 36
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "4358f34f",
+    "date": "2007-01-15",
+    "venue": "The Album Chart Show",
+    "city": "London",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 36
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "5bdb1770",
+    "date": "2006-11-02",
+    "venue": "UNIT",
+    "city": "Tokyo",
+    "country": "Japan",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 75
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "43db177b",
+    "date": "2006-05-13",
+    "venue": "Camperdown Country Park",
+    "city": "Dundee",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 43
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "33d17cbd",
+    "date": "2006-04-30",
+    "venue": "Empire Polo Club",
+    "city": "Indio",
+    "country": "United States",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 56
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "73d5aeb5",
+    "date": "2006-04-28",
+    "venue": "The Joint at Hard Rock Hotel",
+    "city": "Las Vegas",
+    "country": "United States",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 58
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "33db1481",
+    "date": "2006-04-27",
+    "venue": "Marquee Theatre",
+    "city": "Tempe",
+    "country": "United States",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 59
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "13d03d1d",
+    "date": "2006-04-25",
+    "venue": "Revolution Live",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 61
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "43d4975f",
+    "date": "2006-03-29",
+    "venue": "Royal Albert Hall",
+    "city": "London",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 88
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "23d2e007",
+    "date": "2006-03-16",
+    "venue": "Fabric",
+    "city": "London",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 101
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "3bd2e000",
+    "date": "2006-03-11",
+    "venue": "The Waterfront",
+    "city": "Norwich",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 106
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "33d2e001",
+    "date": "2006-03-10",
+    "venue": "Esquires",
+    "city": "Bedford",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 107
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "2bd2e002",
+    "date": "2006-03-09",
+    "venue": "Rescue Rooms",
+    "city": "Nottingham",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 108
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "23d2e003",
+    "date": "2006-03-07",
+    "venue": "Northumbria University",
+    "city": "Newcastle upon Tyne",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 110
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "3bd2e00c",
+    "date": "2006-03-06",
+    "venue": "The Cockpit",
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 111
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "33d2e00d",
+    "date": "2006-03-05",
+    "venue": "King Tut's Wah Wah Hut",
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 112
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "2bd2e00e",
+    "date": "2006-03-03",
+    "venue": "Manchester Academy 3, University of Manchester Students' Union",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 114
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "23d2e00f",
+    "date": "2006-03-02",
+    "venue": "Concorde 2",
+    "city": "Brighton",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 115
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "138b41d1",
+    "date": "2006-01-16",
+    "venue": "Vanbrugh College",
+    "city": "York",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 71
+      }
+    ],
+    "tour": null
+  },
+  {
+    "id": "73d5fa4d",
+    "date": "2005-12-18",
+    "venue": "KOKO",
+    "city": "London",
+    "country": "United Kingdom",
+    "candidateTours": [
+      {
+        "tour": "Silent Alarm",
+        "nearestShowDays": 42
+      }
+    ],
+    "tour": null
+  }
+]

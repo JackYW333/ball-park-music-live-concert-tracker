@@ -1,0 +1,24 @@
+{
+  "name": "middle-kids-stats",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "VITE_BASE_PATH=/middle-kids-concert-tracker/ vite build",
+    "preview": "vite preview",
+    "fetch-data": "node scripts/fetch-setlists.mjs",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-simple-maps": "^3.0.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

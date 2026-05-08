@@ -1,0 +1,111 @@
+[
+  {
+    "id": "lost-friends",
+    "name": "Lost Friends",
+    "year": 2018,
+    "releaseDate": "2018-05-04",
+    "label": "Domino Recording Co.",
+    "spotifyUrl": "https://open.spotify.com/album/5d8AZrRua8369lyb28SUmi",
+    "type": "album",
+    "color": "#d4932a",
+    "songs": [
+      "Bought It",
+      "Mistake",
+      "Edge of Town",
+      "Maryland",
+      "On My Knees",
+      "Don't Be Hiding",
+      "Hole",
+      "Please",
+      "Lost Friends",
+      "Never Start",
+      "Tell Me Something",
+      "So Long, Farewell, I'm Gone"
+    ]
+  },
+  {
+    "id": "today-were-the-greatest",
+    "name": "Today We're the Greatest",
+    "year": 2021,
+    "releaseDate": "2021-03-19",
+    "label": "Domino Recording Co.",
+    "spotifyUrl": "https://open.spotify.com/album/7Lm0uVUdSwxuqx2LUdRmp4",
+    "type": "album",
+    "color": "#2c7bb6",
+    "songs": [
+      "Bad Neighbours",
+      "Cellophane (Brain)",
+      "R U 4 Me?",
+      "Questions",
+      "Lost In Los Angeles",
+      "Golden Star",
+      "Summer Hill",
+      "Some People Stay In Our Hearts Forever",
+      "Run With You",
+      "I Don't Care",
+      "Stacking Chairs",
+      "Today We're The Greatest"
+    ]
+  },
+  {
+    "id": "faith-crisis-pt-1",
+    "name": "Faith Crisis Pt 1",
+    "year": 2024,
+    "releaseDate": "2024-02-16",
+    "label": "Lucky Number Music",
+    "spotifyUrl": "https://open.spotify.com/album/0NxJjIo7cyOfhcW4Eh6j1z",
+    "type": "album",
+    "color": "#b03030",
+    "songs": [
+      "Petition",
+      "Dramamine",
+      "The Blessings",
+      "The Blessings Interlude",
+      "Bootleg Firecracker",
+      "Highlands",
+      "Bend",
+      "Go To Sleep On Me",
+      "Terrible News",
+      "Philosophy",
+      "Your Side, Forever",
+      "Your Side Interlude",
+      "All In My Head"
+    ]
+  },
+  {
+    "id": "middle-kids-ep",
+    "name": "Middle Kids",
+    "year": 2017,
+    "releaseDate": "2017-02-17",
+    "label": "Domino Recording Co.",
+    "spotifyUrl": null,
+    "type": "ep",
+    "color": "#607d8b",
+    "songs": [
+      "Your Love",
+      "The Edge of Town",
+      "Never Start",
+      "Fire In Your Eyes",
+      "Old River",
+      "Doing It Right"
+    ]
+  },
+  {
+    "id": "new-songs-for-old-problems",
+    "name": "New Songs for Old Problems",
+    "year": 2019,
+    "releaseDate": "2019-05-24",
+    "label": "Domino Recording Co.",
+    "spotifyUrl": "https://open.spotify.com/album/1QBZGSptSZwdOL4Hd0F8oV",
+    "type": "ep",
+    "color": "#4a6fa5",
+    "songs": [
+      "Beliefs & Prayers",
+      "Salt Eyes",
+      "Needle",
+      "Real Thing",
+      "Call Me Snowflake",
+      "Big Softy"
+    ]
+  }
+]

@@ -8,6 +8,7 @@
     "spotifyUrl": "https://open.spotify.com/album/5d8AZrRua8369lyb28SUmi",
     "type": "album",
     "color": "#d4932a",
+    "mbid": "1141fa0b-bca5-4151-a088-b93e6bd69a6b",
     "songs": [
       "Bought It",
       "Mistake",
@@ -32,6 +33,7 @@
     "spotifyUrl": "https://open.spotify.com/album/7Lm0uVUdSwxuqx2LUdRmp4",
     "type": "album",
     "color": "#2c7bb6",
+    "mbid": "2bdb12aa-4ade-4558-8120-65c05d52a7bb",
     "songs": [
       "Bad Neighbours",
       "Cellophane (Brain)",
@@ -56,6 +58,7 @@
     "spotifyUrl": "https://open.spotify.com/album/0NxJjIo7cyOfhcW4Eh6j1z",
     "type": "album",
     "color": "#b03030",
+    "mbid": "3a638c34-072e-4cb8-b706-5e44ef8f0ca2",
     "songs": [
       "Petition",
       "Dramamine",
@@ -81,6 +84,7 @@
     "spotifyUrl": null,
     "type": "ep",
     "color": "#607d8b",
+    "mbid": "435cb771-7988-426c-abdf-22855dc0b32c",
     "songs": [
       "Your Love",
       "The Edge of Town",
@@ -99,6 +103,7 @@
     "spotifyUrl": "https://open.spotify.com/album/1QBZGSptSZwdOL4Hd0F8oV",
     "type": "ep",
     "color": "#4a6fa5",
+    "mbid": "96f341cf-8fa3-459e-b01c-ba6b276684f4",
     "songs": [
       "Beliefs & Prayers",
       "Salt Eyes",

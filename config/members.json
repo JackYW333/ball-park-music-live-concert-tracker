@@ -39,6 +39,14 @@
       "periods": [
         { "from": "2008-01-01", "to": null }
       ]
+    },
+    {
+      "id": "brock",
+      "name": "Brock Smith",
+      "role": "Guitar",
+      "periods": [
+        { "from": "2008-01-01", "to": "2011-12-31" }
+      ]
     }
   ],
   "note": "Membership periods are approximate. Edit this file to correct dates or add non-consecutive periods. 'to': null means currently active."

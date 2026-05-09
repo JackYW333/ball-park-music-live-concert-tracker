@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 
-const STORAGE_KEY = 'middle-kids-attendance'
+const STORAGE_KEY = 'ball-park-music-attendance'
 
 function loadFromStorage() {
   try {
@@ -36,7 +36,7 @@ export function useAttendance() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = 'middle-kids-attendance.json'
+    a.download = 'ball-park-music-attendance.json'
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)

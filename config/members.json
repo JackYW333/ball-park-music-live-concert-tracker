@@ -1,35 +1,43 @@
 {
   "members": [
     {
-      "id": "hannah",
-      "name": "Hannah Joy",
+      "id": "sam",
+      "name": "Sam Cromack",
       "role": "Vocals, Guitar",
       "periods": [
-        { "from": "2016-01-01", "to": null }
+        { "from": "2008-01-01", "to": null }
       ]
     },
     {
-      "id": "tim",
-      "name": "Tim Fitz",
-      "role": "Bass, Guitar, Keys",
+      "id": "jen",
+      "name": "Jennifer Boyce",
+      "role": "Bass, Vocals",
       "periods": [
-        { "from": "2016-01-01", "to": null }
+        { "from": "2008-01-01", "to": null }
       ]
     },
     {
-      "id": "harry",
-      "name": "Harry Day",
+      "id": "paul",
+      "name": "Paul Furness",
+      "role": "Keys, Trombone",
+      "periods": [
+        { "from": "2008-01-01", "to": null }
+      ]
+    },
+    {
+      "id": "dean",
+      "name": "Dean Hanson",
+      "role": "Guitar, Bass",
+      "periods": [
+        { "from": "2008-01-01", "to": null }
+      ]
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel Hanson",
       "role": "Drums",
       "periods": [
-        { "from": "2016-01-01", "to": null }
-      ]
-    },
-    {
-      "id": "miles",
-      "name": "Miles Elkington",
-      "role": "Guitar (touring)",
-      "periods": [
-        { "from": "2019-11-07", "to": null }
+        { "from": "2008-01-01", "to": null }
       ]
     }
   ],

@@ -1,11 +1,11 @@
 {
-  "name": "middle-kids-stats",
+  "name": "ball-park-music-stats",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "VITE_BASE_PATH=/middle-kids-live-concert-tracker/ vite build",
+    "build": "VITE_BASE_PATH=/ball-park-music-concert-tracker/ vite build",
     "preview": "vite preview",
     "fetch-data": "node scripts/fetch-setlists.mjs",
     "deploy": "npm run build && npx gh-pages -d dist"

@@ -1,5 +1,5 @@
 /**
- * Fetches Middle Kids setlists from setlist.fm and writes to public/data/setlists.json.
+ * Fetches Ball Park Music setlists from setlist.fm and writes to public/data/setlists.json.
  *
  * Usage:
  *   SETLISTFM_API_KEY=your_key node scripts/fetch-setlists.mjs           # full sweep
@@ -7,8 +7,8 @@
  *
  * Get a free API key at: https://api.setlist.fm/docs/1.0/index.html
  *
- * Middle Kids' MusicBrainz ID: 2c02eece-9832-4850-9150-b0e269f65d8b
- * Verify at: https://www.setlist.fm/setlists/middle-kids-5bd77d3e.html
+ * Ball Park Music's MusicBrainz ID: cd43cafe-ff56-491e-99bb-31770bdd78a6
+ * Verify at: https://www.setlist.fm/setlists/ball-park-music-3bd66823.html
  */
 
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs'
@@ -24,7 +24,7 @@ const TOUR_REVIEW_PATH = join(__dirname, '..', 'config', 'tour-review-needed.jso
 const INFER_WINDOW_DAYS = 30
 
 const API_KEY = process.env.SETLISTFM_API_KEY
-const ARTIST_MBID = process.env.MIDDLE_KIDS_MBID || '2c02eece-9832-4850-9150-b0e269f65d8b'
+const ARTIST_MBID = process.env.BALL_PARK_MUSIC_MBID || 'cd43cafe-ff56-491e-99bb-31770bdd78a6'
 const BASE_URL = 'https://api.setlist.fm/rest/1.0'
 const RECENT_PAGES = 3 // ~60 shows, covers roughly the last year
 
@@ -301,7 +301,7 @@ function inferTours(shows) {
 }
 
 async function main() {
-  console.log('Fetching Middle Kids setlists from setlist.fm…')
+  console.log('Fetching Ball Park Music setlists from setlist.fm…')
   if (RECENT_MODE) {
     await recentMerge()
   } else {

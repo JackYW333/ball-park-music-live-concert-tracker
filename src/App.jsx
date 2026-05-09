@@ -36,7 +36,7 @@ export default function App() {
       <ScrollToTop />
       <header className="site-header">
         <NavLink to="/" className="site-logo" onClick={closeMenu}>
-          Middle Kids <span>Stats</span>
+          Ball Park Music <span>Stats</span>
         </NavLink>
         <Search setlists={data.setlists} />
         <button

@@ -1,10 +1,16 @@
 import albumData from '../../config/albums.json'
 
-// Build a flat song → album lookup
+// Build a flat song → album lookup, albums take priority over EPs/singles
 const songAlbumMap = {}
-albumData.forEach(album => {
+const TYPE_RANK = { album: 0, ep: 1, single: 2, compilation: 3, unreleased: 4 }
+const prioritized = [...albumData].sort((a, b) => {
+  const rankDiff = (TYPE_RANK[a.type] ?? 9) - (TYPE_RANK[b.type] ?? 9)
+  return rankDiff !== 0 ? rankDiff : (a.year ?? 9999) - (b.year ?? 9999)
+})
+prioritized.forEach(album => {
   album.songs.forEach(song => {
-    songAlbumMap[song.toLowerCase()] = album
+    const key = song.toLowerCase()
+    if (!songAlbumMap[key]) songAlbumMap[key] = album
   })
 })
 

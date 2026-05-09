@@ -7,7 +7,9 @@
       "WebFetch(domain:www.discogs.com)",
       "WebFetch(domain:rateyourmusic.com)",
       "WebFetch(domain:www.allmusic.com)",
-      "Bash(SETLISTFM_API_KEY=0uZ0OXK2Eo6qhO09YUE_mQlHzQuPmnB9XgBm npm run fetch-data)"
+      "Bash(SETLISTFM_API_KEY=0uZ0OXK2Eo6qhO09YUE_mQlHzQuPmnB9XgBm npm run fetch-data)",
+      "WebFetch(domain:www.albumartexchange.com)",
+      "WebFetch(domain:www.last.fm)"
     ]
   }
 }

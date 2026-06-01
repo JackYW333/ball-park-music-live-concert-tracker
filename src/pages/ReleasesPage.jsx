@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb.jsx'
-import { luminance } from '../utils/stats.js'
+import { luminance, computeSongStats, getAlbum } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 import AlbumDonut from '../components/AlbumDonut.jsx'
 
@@ -15,11 +15,16 @@ const TYPE_LABELS = {
 }
 
 export default function ReleasesPage({ data }) {
-  const { loading, error, albumCoverage: coverage } = data
+  const { loading, error, setlists, albumCoverage: coverage } = data
   const coverageMap = useMemo(
     () => Object.fromEntries(coverage.map(c => [c.id, c])),
     [coverage]
   )
+
+  const unknownSongs = useMemo(() => {
+    const stats = computeSongStats(setlists)
+    return stats.filter(s => getAlbum(s.name) === null)
+  }, [setlists])
 
   const grouped = useMemo(() => {
     const byType = {}
@@ -113,6 +118,28 @@ export default function ReleasesPage({ data }) {
           </div>
         )
       })}
+
+      {unknownSongs.length > 0 && (
+        <div className="section">
+          <div className="section-title">Unreleased / Unknown</div>
+          <div className="card">
+            <ol className="ranked-list">
+              {unknownSongs.map((s, i) => (
+                <li key={s.name}>
+                  <span className="ranked-list__rank">{i + 1}</span>
+                  <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>
+                    {s.name}
+                  </Link>
+                  <div className="ranked-list__bar-wrap">
+                    <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / unknownSongs[0].count) * 100)}%` }} />
+                  </div>
+                  <span className="ranked-list__meta">{s.count}×</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      )}
 
       {coverage.length > 0 && (
         <div className="section">

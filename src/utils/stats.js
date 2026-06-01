@@ -7,15 +7,21 @@ const prioritized = [...albumData].sort((a, b) => {
   const rankDiff = (TYPE_RANK[a.type] ?? 9) - (TYPE_RANK[b.type] ?? 9)
   return rankDiff !== 0 ? rankDiff : (a.year ?? 9999) - (b.year ?? 9999)
 })
+
+// Normalize Unicode curly quotes to plain ASCII so album config and setlist.fm data compare equal
+function normalizeQuotes(str) {
+  return str.replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
+}
+
 prioritized.forEach(album => {
   album.songs.forEach(song => {
-    const key = song.toLowerCase()
+    const key = normalizeQuotes(song).toLowerCase()
     if (!songAlbumMap[key]) songAlbumMap[key] = album
   })
 })
 
 export function getAlbum(songName) {
-  return songAlbumMap[songName.toLowerCase()] || null
+  return songAlbumMap[normalizeQuotes(songName).toLowerCase()] || null
 }
 
 export function luminance(hex) {

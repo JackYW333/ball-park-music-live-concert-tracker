@@ -1,8 +1,36 @@
 {
-  "lastUpdated": "2026-06-03T17:04:47.936Z",
-  "total": 415,
+  "lastUpdated": "2026-06-04T15:33:35.210Z",
+  "total": 417,
   "totalWithSetlist": 221,
   "setlists": [
+    {
+      "id": "4375cb37",
+      "date": "2026-06-06",
+      "venue": "Suncorp Stadium",
+      "city": "Brisbane",
+      "state": "Queensland",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -27.4679357321901,
+      "lng": 153.028092384338,
+      "tour": "The Rock ’N’ Roll Adventure Continues...",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/suncorp-stadium-brisbane-australia-4375cb37.html",
+      "songs": []
+    },
+    {
+      "id": "3b4f649c",
+      "date": "2026-06-06",
+      "venue": "The Tivoli",
+      "city": "Brisbane",
+      "state": "Queensland",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -27.4679357321901,
+      "lng": 153.028092384338,
+      "tour": "The Rock ’N’ Roll Adventure Continues...",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/the-tivoli-brisbane-australia-3b4f649c.html",
+      "songs": []
+    },
     {
       "id": "7b4dd23c",
       "date": "2026-06-05",

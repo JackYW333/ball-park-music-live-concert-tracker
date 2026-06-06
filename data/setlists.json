@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-05T15:20:51.844Z",
+  "lastUpdated": "2026-06-06T14:00:00.549Z",
   "total": 417,
-  "totalWithSetlist": 221,
+  "totalWithSetlist": 224,
   "setlists": [
     {
-      "id": "4375cb37",
+      "id": "437513cb",
       "date": "2026-06-06",
       "venue": "Suncorp Stadium",
       "city": "Brisbane",
@@ -14,8 +14,23 @@
       "lat": -27.4679357321901,
       "lng": 153.028092384338,
       "tour": "The Rock ’N’ Roll Adventure Continues...",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/suncorp-stadium-brisbane-australia-4375cb37.html",
-      "songs": []
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/suncorp-stadium-brisbane-australia-437513cb.html",
+      "songs": [
+        {
+          "name": "All I Want Is You",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "3b4f649c",
@@ -29,7 +44,159 @@
       "lng": 153.028092384338,
       "tour": "The Rock ’N’ Roll Adventure Continues...",
       "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/the-tivoli-brisbane-australia-3b4f649c.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "It's the End of the World (And I Feel Fine)",
+          "tape": true,
+          "encore": 0,
+          "cover": {
+            "name": "R.E.M."
+          },
+          "info": null
+        },
+        {
+          "name": "Dirty Old Town",
+          "tape": true,
+          "encore": 0,
+          "cover": {
+            "name": "Ewan MacColl"
+          },
+          "info": null
+        },
+        {
+          "name": "She Only Loves Me When I'm There",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Frank",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Stars in My Eyes",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "with a tribute to tour and sound manager Greg Weaver."
+        },
+        {
+          "name": "Exactly How You Are",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Nothing Ever Goes My Way",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming Down",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cost of Lifestyle",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Writing Hand",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Like Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The End Times",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Reimagined 2026 Trump 2.0 version"
+        },
+        {
+          "name": "Next Life Already",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "All I Want Is You",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The New Me Starts Tomorrow",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "It's Nice to Be Alive",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cherub",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Encore Improvisation",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Bad Taste Blues (Part III)",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Everything Is Shit Except My Friendship With You",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "7b4dd23c",
@@ -43,7 +210,134 @@
       "lng": 153.028092384338,
       "tour": "The Rock ’N’ Roll Adventure Continues...",
       "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/the-tivoli-brisbane-australia-7b4dd23c.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "She Only Loves Me When I'm There",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Frank",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Stars in My Eyes",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Dedicated to late Greg Weaver, a tour manager who said: 'The Rock 'n' Roll adventure continues'"
+        },
+        {
+          "name": "Exactly How You Are",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Nothing Ever Goes My Way",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Dedicated to lead guitarist who had broken his collarbone in a heroic, tragic cricket accident."
+        },
+        {
+          "name": "Coming Down",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cost of Lifestyle",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Writing Hand",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Like Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The End Times",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "2026 rearrangement"
+        },
+        {
+          "name": "Next Life Already",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "All I Want Is You",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The New Me Starts Tomorrow",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "It's Nice to Be Alive",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cherub",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Ball Park Music said they were reclaiming the song as a Brisbane song from Melbourne appropriation."
+        },
+        {
+          "name": "Weirder & Weirder",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Everything Is Shit Except My Friendship With You",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "13482915",

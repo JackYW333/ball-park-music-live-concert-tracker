@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-13T14:16:37.545Z",
+  "lastUpdated": "2026-06-14T14:20:11.488Z",
   "total": 418,
-  "totalWithSetlist": 224,
+  "totalWithSetlist": 225,
   "setlists": [
     {
       "id": "b74d9e2",
@@ -15,7 +15,127 @@
       "lng": 153.57816,
       "tour": "The Rock ’N’ Roll Adventure Continues...",
       "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/kingscliff-beach-hotel-kingscliff-australia-b74d9e2.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "She Only Loves Me When I'm There",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Frank",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Stars in My Eyes",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Exactly How You Are",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Nothing Ever Goes My Way",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming Down",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cost of Lifestyle",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Bad Taste Blues (Part III)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Like Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The End Times",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Next Life Already",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "All I Want Is You",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The New Me Starts Tomorrow",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "It's Nice to Be Alive",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cherub",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Everything Is Shit Except My Friendship With You",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "437513cb",

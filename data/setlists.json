@@ -1,8 +1,86 @@
 {
-  "lastUpdated": "2026-06-26T14:39:03.427Z",
-  "total": 418,
-  "totalWithSetlist": 225,
+  "lastUpdated": "2026-06-27T13:58:32.916Z",
+  "total": 419,
+  "totalWithSetlist": 226,
   "setlists": [
+    {
+      "id": "37209ab",
+      "date": "2026-06-27",
+      "venue": "Geelong City Hall Forecourt/Johnstone Park,Geelong",
+      "city": "Geelong",
+      "state": "Victoria",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -38.1471125837516,
+      "lng": 144.360694885254,
+      "tour": "The Rock ’N’ Roll Adventure Continues...",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/geelong-city-hall-forecourtjohnstone-parkgeelong-geelong-australia-37209ab.html",
+      "songs": [
+        {
+          "name": "Exactly How You Are @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Overwhelming Sound @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The End Times @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Beautiful Blueberries @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Fishing @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Like Love @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cherub @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "It's Nice to Be Alive @Info[Acoustic]",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
     {
       "id": "b74d9e2",
       "date": "2026-06-13",

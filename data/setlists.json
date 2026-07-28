@@ -1,8 +1,37 @@
 {
-  "lastUpdated": "2026-07-27T14:51:38.191Z",
-  "total": 419,
-  "totalWithSetlist": 226,
+  "lastUpdated": "2026-07-28T14:25:50.016Z",
+  "total": 420,
+  "totalWithSetlist": 227,
   "setlists": [
+    {
+      "id": "4370e7cf",
+      "date": "2026-07-28",
+      "venue": "Miami Beach Surf Life Saving Club",
+      "city": "Gold Coast",
+      "state": "Queensland",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -28,
+      "lng": 153.4333333,
+      "tour": "The Rock ’N’ Roll Adventure Continues...",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/miami-beach-surf-life-saving-club-gold-coast-australia-4370e7cf.html",
+      "songs": [
+        {
+          "name": "Exactly How You Are",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
     {
       "id": "37209ab",
       "date": "2026-06-27",

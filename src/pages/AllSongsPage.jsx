@@ -1,21 +1,21 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { computeSongStats, sortKey } from '../utils/stats.js'
+import { computeSongStats, sortKey, songKey } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import SearchInput from '../components/SearchInput.jsx'
 
-// Build lookup: song name (lowercase) → { albumIndex, trackIndex, album }
+// Build lookup: song name (normalized) → { albumIndex, trackIndex, album }
 const songPositionMap = {}
 albumData.forEach((album, albumIndex) => {
   album.songs.forEach((songName, trackIndex) => {
-    songPositionMap[songName.toLowerCase()] = { albumIndex, trackIndex, album }
+    songPositionMap[songKey(songName)] = { albumIndex, trackIndex, album }
   })
 })
 
 function getSongPosition(name) {
-  return songPositionMap[name.toLowerCase()] ?? { albumIndex: Infinity, trackIndex: Infinity, album: null }
+  return songPositionMap[songKey(name)] ?? { albumIndex: Infinity, trackIndex: Infinity, album: null }
 }
 
 export default function AllSongsPage({ data }) {
@@ -26,11 +26,11 @@ export default function AllSongsPage({ data }) {
   const songs = useMemo(() => computeSongStats(setlists), [setlists])
 
   const unplayed = useMemo(() => {
-    const played = new Set(songs.map(s => s.name.toLowerCase()))
+    const played = new Set(songs.map(s => songKey(s.name)))
     const result = []
     albumData.forEach(album => {
       album.songs.forEach(songName => {
-        if (!played.has(songName.toLowerCase()))
+        if (!played.has(songKey(songName)))
           result.push({ name: songName, count: 0, dates: [], album, neverPlayed: true })
       })
     })

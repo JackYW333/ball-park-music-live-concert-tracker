@@ -9,19 +9,24 @@ const prioritized = [...albumData].sort((a, b) => {
 })
 
 // Normalize Unicode curly quotes to plain ASCII so album config and setlist.fm data compare equal
-function normalizeQuotes(str) {
+export function normalizeQuotes(str) {
   return str.replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
+}
+
+// Normalize + lowercase, for comparing song names across album config and setlist.fm data
+export function songKey(str) {
+  return normalizeQuotes(str).toLowerCase()
 }
 
 prioritized.forEach(album => {
   album.songs.forEach(song => {
-    const key = normalizeQuotes(song).toLowerCase()
+    const key = songKey(song)
     if (!songAlbumMap[key]) songAlbumMap[key] = album
   })
 })
 
 export function getAlbum(songName) {
-  return songAlbumMap[normalizeQuotes(songName).toLowerCase()] || null
+  return songAlbumMap[songKey(songName)] || null
 }
 
 export function luminance(hex) {

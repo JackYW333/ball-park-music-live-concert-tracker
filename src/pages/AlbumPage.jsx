@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
-import { computeSongStats, formatDate } from '../utils/stats.js'
+import { computeSongStats, formatDate, songKey } from '../utils/stats.js'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 
 function formatRelDate(iso) {
@@ -19,18 +19,18 @@ export default function AlbumPage({ data }) {
   const album = albumData.find(a => a.id === albumId)
 
   const albumSongsLower = useMemo(
-    () => new Set((album?.songs || []).map(s => s.toLowerCase())),
+    () => new Set((album?.songs || []).map(songKey)),
     [album]
   )
 
   const albumShows = useMemo(
-    () => setlists.filter(s => s.songs.some(song => !song.tape && albumSongsLower.has(song.name.toLowerCase()))),
+    () => setlists.filter(s => s.songs.some(song => !song.tape && albumSongsLower.has(songKey(song.name)))),
     [setlists, albumSongsLower]
   )
 
   const songStats = useMemo(() => {
     if (!setlists.length || !album) return []
-    return computeSongStats(setlists).filter(s => albumSongsLower.has(s.name.toLowerCase()))
+    return computeSongStats(setlists).filter(s => albumSongsLower.has(songKey(s.name)))
   }, [setlists, album, albumSongsLower])
 
   const totalPlays = useMemo(() => songStats.reduce((sum, s) => sum + s.count, 0), [songStats])
@@ -89,7 +89,7 @@ export default function AlbumPage({ data }) {
           <div className="card-title">Songs</div>
           <ol className="ranked-list">
             {album.songs.map((songName, i) => {
-              const stat = songStats.find(s => s.name.toLowerCase() === songName.toLowerCase())
+              const stat = songStats.find(s => songKey(s.name) === songKey(songName))
               return (
                 <li key={songName}>
                   <span className="ranked-list__rank">{i + 1}</span>

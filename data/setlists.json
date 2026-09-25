@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T16:58:05.636Z",
+  "lastUpdated": "2026-09-25T17:00:04.075Z",
   "total": 420,
   "totalWithSetlist": 227,
   "setlists": [
@@ -2301,7 +2301,7 @@
     {
       "id": "1b4bcd4c",
       "date": "2025-12-11",
-      "venue": "Katie am Berghain, Berlin,  Germany.",
+      "venue": "Kantine am Berghain",
       "city": "Berlin",
       "state": "Berlin",
       "country": "Germany",
@@ -2309,7 +2309,7 @@
       "lat": 52.5166667,
       "lng": 13.4,
       "tour": "European Tour 2025",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2025/katie-am-berghain-berlin-germany-berlin-germany-1b4bcd4c.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2025/kantine-am-berghain-berlin-germany-1b4bcd4c.html",
       "songs": [
         {
           "name": "Exactly How You Are",

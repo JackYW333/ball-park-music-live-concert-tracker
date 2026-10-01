@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-09-30T17:54:47.861Z",
-  "total": 420,
+  "lastUpdated": "2026-10-01T18:20:12.934Z",
+  "total": 421,
   "totalWithSetlist": 227,
   "setlists": [
+    {
+      "id": "73728e3d",
+      "date": "2026-10-03",
+      "venue": "Flagstaff Hill",
+      "city": "Wollongong",
+      "state": "New South Wales",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -34.4333333,
+      "lng": 150.8833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/flagstaff-hill-wollongong-australia-73728e3d.html",
+      "songs": []
+    },
     {
       "id": "4370e7cf",
       "date": "2026-07-28",

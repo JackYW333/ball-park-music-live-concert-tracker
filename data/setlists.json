@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-01T18:20:12.934Z",
+  "lastUpdated": "2026-10-02T17:45:45.541Z",
   "total": 421,
-  "totalWithSetlist": 227,
+  "totalWithSetlist": 228,
   "setlists": [
     {
       "id": "73728e3d",
@@ -15,7 +15,78 @@
       "lng": 150.8833333,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/flagstaff-hill-wollongong-australia-73728e3d.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "She Only Loves Me When I'm There",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Exactly How You Are",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming Down",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Head Like a Sieve",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Spark Up!",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The New Me Starts Tomorrow",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "It's Nice to Be Alive",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cherub",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Freak",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Silverchair cover"
+        },
+        {
+          "name": "Please Don’t Move to Melbourne",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "4370e7cf",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T17:45:45.541Z",
+  "lastUpdated": "2026-10-03T16:05:07.946Z",
   "total": 421,
   "totalWithSetlist": 228,
   "setlists": [
@@ -76,8 +76,10 @@
           "name": "Freak",
           "tape": false,
           "encore": 0,
-          "cover": null,
-          "info": "Silverchair cover"
+          "cover": {
+            "name": "Silverchair"
+          },
+          "info": null
         },
         {
           "name": "Please Don’t Move to Melbourne",

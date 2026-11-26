@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-25T21:30:18.277Z",
-  "total": 421,
+  "lastUpdated": "2026-11-26T21:17:50.402Z",
+  "total": 422,
   "totalWithSetlist": 228,
   "setlists": [
+    {
+      "id": "5b7c1fd0",
+      "date": "2026-11-28",
+      "venue": "Adelaide Parklands Circuit",
+      "city": "Adelaide",
+      "state": "South Australia",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -34.9333333,
+      "lng": 138.6,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/ball-park-music/2026/adelaide-parklands-circuit-adelaide-australia-5b7c1fd0.html",
+      "songs": []
+    },
     {
       "id": "73728e3d",
       "date": "2026-10-03",
